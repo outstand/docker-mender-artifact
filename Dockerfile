@@ -1,4 +1,5 @@
 FROM buildpack-deps:stretch-curl as tini
+LABEL maintainer='Ryan Schlesinger <ryan@outstand.com>'
 
 ENV TINI_VERSION v0.18.0
 
